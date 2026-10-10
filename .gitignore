@@ -1,0 +1,21 @@
+# ---------- PRIVATE: never publish ----------
+.env
+data/raw_export/*
+!data/raw_export/README.md
+data/processed_pairs.jsonl
+data/processed_pairs.original.jsonl
+data/processed_pairs/
+data/quarantine_pairs.jsonl
+private/
+chroma_data/
+logs/
+auth_info_baileys/
+kill_switch.flag
+.chroma_server.pid
+# ---------- tooling ----------
+whatsapp/node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.DS_Store

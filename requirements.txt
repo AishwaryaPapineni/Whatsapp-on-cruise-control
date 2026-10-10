@@ -1,0 +1,9 @@
+# Python 3.10+
+google-genai>=1.0
+python-dotenv>=1.0
+chromadb[server]>=1.0
+sentence-transformers>=3.0
+flask>=3.0
+streamlit>=1.37
+streamlit-autorefresh>=1.0
+pytest>=8

@@ -1,0 +1,13 @@
+{
+  "dry_run": true,
+  "min_delay_seconds": 3,
+  "max_delay_seconds": 12,
+  "typing_chars_per_second": 6,
+  "short_term_context_messages": 8,
+  "retrieval_k": 3,
+  "owner_active_window_minutes": 10,
+  "max_auto_replies_per_hour": 6,
+  "quiet_hours": "23-7",
+  "timezone": "Asia/Kolkata",
+  "hold_intents": {"professional": ["question"]}
+}

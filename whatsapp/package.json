@@ -1,0 +1,14 @@
+{
+  "name": "cruise-control-whatsapp",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node baileys_client.js", "test": "node --test" },
+  "dependencies": {
+    "@whiskeysockets/baileys": "7.0.0-rc14",
+    "axios": "1.20.0",
+    "dotenv": "18.0.7",
+    "pino": "10.4.0",
+    "qrcode-terminal": "0.12.0"
+  }
+}

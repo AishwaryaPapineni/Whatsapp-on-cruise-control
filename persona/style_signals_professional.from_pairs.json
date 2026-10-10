@@ -1,0 +1,70 @@
+{
+  "hinglish_ratio": 0.027,
+  "avg_message_length_words": 7.8,
+  "median_message_length_words": 6.0,
+  "messages_with_emoji_ratio": 0.395,
+  "top_emojis": [
+    [
+      "😂",
+      89
+    ],
+    [
+      "😊",
+      69
+    ],
+    [
+      "😍",
+      20
+    ],
+    [
+      "🎈",
+      6
+    ],
+    [
+      "🎉",
+      3
+    ],
+    [
+      "🥺",
+      2
+    ],
+    [
+      "😅",
+      2
+    ],
+    [
+      "😵",
+      2
+    ],
+    [
+      "😻",
+      2
+    ],
+    [
+      "🥳",
+      2
+    ],
+    [
+      "🤣",
+      1
+    ],
+    [
+      "😌",
+      1
+    ],
+    [
+      "🤩",
+      1
+    ],
+    [
+      "😔",
+      1
+    ],
+    [
+      "🤭",
+      1
+    ]
+  ],
+  "sample_size": 440,
+  "source": "my_reply lines in data/processed_pairs.jsonl (professional-work) -- re-run build_persona.py on the raw export for message-level numbers"
+}

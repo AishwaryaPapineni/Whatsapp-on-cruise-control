@@ -1,0 +1,7 @@
+{
+  "_comment": "Optional per-number details the 4 relationship boxes can't express. persona = key in persona.json relationships (wife/family/friends/professional). conversation_id = this person's own exported chat, searched first. Conversations in _private_conversations are never shown to OTHER contacts in the same box (keeps your replies to your wife out of your parents' retrieval).",
+  "_private_conversations": ["wife"],
+  "919812345671": {"name": "Wife", "persona": "wife", "conversation_id": "wife"},
+  "919812345673": {"name": "Family", "persona": "family", "conversation_id": "family"},
+  "919812345672": {"name": "Work group", "persona": "professional", "conversation_id": "professional-work"}
+}

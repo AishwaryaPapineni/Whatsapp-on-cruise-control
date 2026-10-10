@@ -1,0 +1,27 @@
+{
+  "hinglish_ratio_percent": 9.09,
+  "average_message_length_words": 9.18,
+  "top_emojis": [
+    {
+      "emoji": "❤",
+      "frequency": 4
+    },
+    {
+      "emoji": "😍",
+      "frequency": 4
+    },
+    {
+      "emoji": "😊",
+      "frequency": 3
+    },
+    {
+      "emoji": "😘",
+      "frequency": 1
+    },
+    {
+      "emoji": "😂",
+      "frequency": 1
+    }
+  ],
+  "total_sample_size": 44
+}

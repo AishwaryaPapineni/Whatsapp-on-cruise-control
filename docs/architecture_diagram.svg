@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1790" height="400" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#1e1e1e"/></marker></defs>
+<rect width="1790" height="400" fill="#ffffff"/>
+<text x="40" y="70" font-size="30" font-weight="700" fill="#1e1e1e">WhatsApp Cruise Control — Two-Brain Pipeline</text>
+<rect x="40" y="140" width="170" height="80" rx="12" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+<text x="125.0" y="186.0" font-size="17" font-weight="600" text-anchor="middle" fill="#1e1e1e">Message In</text>
+<text x="125.0" y="130" font-size="12" text-anchor="middle" fill="#555">plumbing</text>
+<line x1="214" y1="180.0" x2="254" y2="180.0" stroke="#1e1e1e" stroke-width="2" marker-end="url(#a)"/>
+<rect x="260" y="140" width="170" height="80" rx="12" fill="#e9ecef" stroke="#1e1e1e" stroke-width="2"/>
+<text x="345.0" y="186.0" font-size="17" font-weight="600" text-anchor="middle" fill="#1e1e1e">Router</text>
+<text x="345.0" y="130" font-size="12" text-anchor="middle" fill="#555">rules - no AI</text>
+<line x1="434" y1="180.0" x2="474" y2="180.0" stroke="#1e1e1e" stroke-width="2" marker-end="url(#a)"/>
+<rect x="480" y="140" width="170" height="80" rx="12" fill="#e9ecef" stroke="#1e1e1e" stroke-width="2"/>
+<text x="565.0" y="186.0" font-size="17" font-weight="600" text-anchor="middle" fill="#1e1e1e">Decision Engine</text>
+<text x="565.0" y="130" font-size="12" text-anchor="middle" fill="#555">rules - no AI</text>
+<line x1="654" y1="180.0" x2="694" y2="180.0" stroke="#1e1e1e" stroke-width="2" marker-end="url(#a)"/>
+<rect x="700" y="140" width="170" height="80" rx="12" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2"/>
+<text x="785.0" y="186.0" font-size="17" font-weight="600" text-anchor="middle" fill="#1e1e1e">Retrieval</text>
+<text x="785.0" y="130" font-size="12" text-anchor="middle" fill="#555">HISTORY BRAIN</text>
+<line x1="874" y1="180.0" x2="914" y2="180.0" stroke="#1e1e1e" stroke-width="2" marker-end="url(#a)"/>
+<rect x="920" y="140" width="170" height="80" rx="12" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2"/>
+<text x="1005.0" y="186.0" font-size="17" font-weight="600" text-anchor="middle" fill="#1e1e1e">Persona Injection</text>
+<text x="1005.0" y="130" font-size="12" text-anchor="middle" fill="#555">PERSONA BRAIN</text>
+<line x1="1094" y1="180.0" x2="1134" y2="180.0" stroke="#1e1e1e" stroke-width="2" marker-end="url(#a)"/>
+<rect x="1140" y="140" width="170" height="80" rx="12" fill="#d0bfff" stroke="#1e1e1e" stroke-width="2"/>
+<text x="1225.0" y="186.0" font-size="17" font-weight="600" text-anchor="middle" fill="#1e1e1e">Generation</text>
+<text x="1225.0" y="130" font-size="12" text-anchor="middle" fill="#555">both brains + LLM</text>
+<line x1="1314" y1="180.0" x2="1354" y2="180.0" stroke="#1e1e1e" stroke-width="2" marker-end="url(#a)"/>
+<rect x="1360" y="140" width="170" height="80" rx="12" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+<text x="1445.0" y="186.0" font-size="17" font-weight="600" text-anchor="middle" fill="#1e1e1e">Human-like Delay</text>
+<text x="1445.0" y="130" font-size="12" text-anchor="middle" fill="#555">plumbing</text>
+<line x1="1534" y1="180.0" x2="1574" y2="180.0" stroke="#1e1e1e" stroke-width="2" marker-end="url(#a)"/>
+<rect x="1580" y="140" width="170" height="80" rx="12" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+<text x="1665.0" y="186.0" font-size="17" font-weight="600" text-anchor="middle" fill="#1e1e1e">Send (Baileys)</text>
+<text x="1665.0" y="130" font-size="12" text-anchor="middle" fill="#555">plumbing</text>
+<text x="260" y="255" font-size="13" fill="#333">looks up phone number in a</text>
+<text x="260" y="273" font-size="13" fill="#333">table I maintain - no AI</text>
+<text x="480" y="255" font-size="13" fill="#333">cheap rules first, one AI call</text>
+<text x="480" y="273" font-size="13" fill="#333">only if truly ambiguous</text>
+<text x="700" y="255" font-size="13" fill="#333">searches only the matching</text>
+<text x="700" y="273" font-size="13" fill="#333">relationship's memory</text>
+<text x="700" y="291" font-size="13" fill="#333">(family/friend/professional/</text>
+<text x="700" y="309" font-size="13" fill="#333">unknown) + last N messages</text>
+<text x="700" y="327" font-size="13" fill="#333">of this chat (short-term)</text>
+<text x="920" y="255" font-size="13" fill="#333">persona.json: identity, tone</text>
+<text x="920" y="273" font-size="13" fill="#333">per relationship, hard rules</text>
+<text x="1140" y="255" font-size="13" fill="#333">Gemini 3.5 Flash (free tier)</text>
+<text x="1140" y="273" font-size="13" fill="#333">+ output guardrail</text>
+<rect x="40" y="350" width="22" height="16" fill="#e9ecef" stroke="#1e1e1e"/><text x="70" y="363" font-size="14" fill="#1e1e1e">rule-based, no AI</text>
+<rect x="270" y="350" width="22" height="16" fill="#a5d8ff" stroke="#1e1e1e"/><text x="300" y="363" font-size="14" fill="#1e1e1e">history brain (RAG)</text>
+<rect x="500" y="350" width="22" height="16" fill="#b2f2bb" stroke="#1e1e1e"/><text x="530" y="363" font-size="14" fill="#1e1e1e">persona brain</text>
+<rect x="730" y="350" width="22" height="16" fill="#d0bfff" stroke="#1e1e1e"/><text x="760" y="363" font-size="14" fill="#1e1e1e">generation (LLM)</text>
+<rect x="960" y="350" width="22" height="16" fill="#ffffff" stroke="#1e1e1e"/><text x="990" y="363" font-size="14" fill="#1e1e1e">plumbing</text>
+</svg>
